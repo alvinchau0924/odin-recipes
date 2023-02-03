@@ -20,6 +20,13 @@ button {
     color: rgb(38, 9, 165);
 }
 
+button:hover {
+    transition: 1.5s;
+    background-color: rgb(223, 229, 205);
+    color: rgb(216, 17, 230);
+    border-radius: 40%;
+}
+
 img {
     height: 400px;
     width: auto;
@@ -27,7 +34,15 @@ img {
     margin: 10px;
 }
 
-ul li,
-ol li{
+li,
+a {
     color: rgb(5, 5, 193);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
